@@ -1,5 +1,4 @@
 require('longjohn');
-var _ = require('lodash');
 
 // Parse incoming options.
 var optimist = require('optimist')

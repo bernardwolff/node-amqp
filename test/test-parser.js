@@ -2,7 +2,6 @@
 // data packets. See https://github.com/postwait/node-amqp/issues/65
 require('./harness');
 var Connection = require('../amqp').Connection;
-var _ = require('lodash');
 var EventEmitter = require('events').EventEmitter;
 _.assignIn(Connection.prototype, EventEmitter.prototype);
 
